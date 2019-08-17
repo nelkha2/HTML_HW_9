@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temp vs Latitude</title>
+</head>
+
+    <!--Nav Bar Initiation: Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!--Margin Adjustment-->
+  <link rel="stylesheet" type="text/css" href="style_website.css">
+
+<!-- Nav Bar-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="../MAIN_PAGE.html">Home</a>
+        
+        <!-- other tabs -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="weather_data_final.html">Weather Raw Data</a>
+            </li>
+    
+            <li class="nav-item">
+                <a class="nav-link" href="Comparison.html">Graph Comparison</a>
+            </li>
+    
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Graphs</a>
+                <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Temp_vs_Latitude.html">Temp vs Latitude</a>
+                        <a class="dropdown-item" href="Humidity_vs_Latitude.html">Humidity vs Latitude</a>
+                        <a class="dropdown-item" href="Cloudiness_vs_Latitude.html">Cloudiness vs Latitude</a>
+                        <a class="dropdown-item" href="Wind_Speed_vs_Latitude.html">Wind Speed vs Latitude</a>
+    
+                </div>
+            </li>
+    
+        </ul>
+    </nav>
+
+
+<body>
+
+    <h1>Temperature vs Latitude</h1>
+    
+    <p><em>Graph:</em></p>
+    <a target="_blank" href="Lat_vs_Max_Temp.png">
+        <img src="Lat_vs_Max_Temp.png" alt="None">
+    </a>
+
+    <p><em>Explanation / Analysis:</em><br>
+        <ul>
+            <li>The Graph displays the relationshop between the change in city latitude and temperature </li>
+            <li>Cities with the highest temperatures (peak) seem to be within the 0-30 latitude range.</li>
+            <li>Maximum temperature starts to decrease with the latitude increase (getting further from the equator) after latitude = ~30</li>
+            <li>We can possibly conclude the temperature increases near the equator for the day of assessment </li>
+            <li>We can possibly conclude the temperature increases near the equator for the day of assessment (maximum temperature may change per area based on the season).</li>
+        </ul>
+        
+    </p>
+ 
+</body>
+</html>
